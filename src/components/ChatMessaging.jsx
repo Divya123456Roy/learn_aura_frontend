@@ -17,7 +17,7 @@ import { useQuery, useQueryClient } from "@tanstack/react-query";
 import io from "socket.io-client";
 import axios from "axios";
 import { BASE_URL } from "../utils/urls";
-import { getToken } from "../Utils/StorageHandler";
+import { getToken } from "../utils/storageHandler";
 import { useSelector } from "react-redux";
 import { getAllGroupsAPI } from "../services/groupService";
 import { fetchMyFollowersAPI } from "../services/chatAPI";
