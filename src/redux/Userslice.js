@@ -1,5 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit'
-import {  decodedData, getToken } from '../Utils/StorageHandler'
+import {  decodedData, getToken } from '../utils/storageHandler'
 
 
 export const userSlice= createSlice({
