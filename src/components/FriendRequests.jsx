@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { getToken } from '../Utils/StorageHandler';
 import { FaCheck, FaTimes } from 'react-icons/fa';
 import { acceptFriendRequestAPI, fetchFriendRequestsAPI, rejectFriendRequestAPI } from '../services/userAPI';
+import { getToken } from '../utils/storageHandler';
 
 const FriendRequests = () => {
   const [friendRequests, setFriendRequests] = useState([]);
