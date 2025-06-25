@@ -1,6 +1,6 @@
 import axios from "axios";
-import { getToken } from "../Utils/StorageHandler";
 import { BASE_URL } from "../utils/urls";
+import { getToken } from "../utils/storageHandler";
 
 // Helper function to get headers with token
 const getAuthHeaders = () => {
