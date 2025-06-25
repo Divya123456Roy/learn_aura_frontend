@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { getToken } from '../Utils/StorageHandler';
+import { getToken } from '../utils/storageHandler';
 import { getAllGroupsAPI, joinGroupAPI } from '../services/groupService';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useSelector } from 'react-redux';
