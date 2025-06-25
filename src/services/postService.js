@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-import { getToken } from '../Utils/StorageHandler';
+import { getToken } from '../utils/storageHandler';
 import { BASE_URL } from '../utils/urls';
 
 

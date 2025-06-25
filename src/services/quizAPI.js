@@ -1,6 +1,6 @@
 import axios from "axios";
 import { BASE_URL } from "../utils/urls";
-import { getToken } from "../Utils/StorageHandler";
+import { getToken } from "../utils/storageHandler";
 
 export const createQuizAPI = async (quizData) => {
   console.log(quizData);

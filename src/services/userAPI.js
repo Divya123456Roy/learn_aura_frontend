@@ -1,6 +1,6 @@
 // userAPI.js
+import { getToken } from "../utils/storageHandler";
 import { BASE_URL } from "../utils/urls";
-import { getToken } from "../Utils/StorageHandler";
 import axios from "axios";
 
 const getAuthHeaders = () => {
