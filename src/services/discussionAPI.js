@@ -1,14 +1,14 @@
 import { BASE_URL } from "../utils/urls";
-import { getToken, getUser } from "../Utils/StorageHandler";
 import axios from "axios";
 import { getAuthHeaders } from "./quizAPI";
+import { getToken } from "../utils/storageHandler";
 
 /**
  * ✅ Create a new discussion forum
  * Access: Student only
  */
 export const createDiscussionAPI = async (forumData) => {
-  const token = getToken();
+  const token = getTokenn();
   const user = getUser();
 
   try {

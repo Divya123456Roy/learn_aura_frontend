@@ -1,6 +1,6 @@
 // services/groupService.js
 import axios from 'axios';
-import { getToken } from '../Utils/StorageHandler';
+import { getToken } from '../utils/storageHandler';
 
 const BASE_URL = 'https://your-api-url.com/api';
 
