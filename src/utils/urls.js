@@ -1,0 +1,1 @@
+export const BASE_URL="https://learn-aura-backend.onrender.com"
