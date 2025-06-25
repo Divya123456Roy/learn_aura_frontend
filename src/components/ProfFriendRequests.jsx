@@ -3,13 +3,13 @@ import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { Search, Check, X } from "lucide-react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { getToken } from "../Utils/StorageHandler";
 import {
   fetchFriendRequestsAPI,
   acceptFriendRequestAPI,
   rejectFriendRequestAPI,
 } from "../services/userAPI";
 import { useNavigate } from "react-router-dom";
+import { getToken } from "../utils/storageHandler";
 
 export default function ProfFriendRequests() {
   const [search, setSearch] = useState("");
